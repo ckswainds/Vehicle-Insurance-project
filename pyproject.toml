@@ -1,0 +1,18 @@
+# [build-system]
+# requires = ["setuptools>=61.0", "wheel"]
+# build-backend = "setuptools.build_meta"
+
+[project]
+name = "src"
+version = "0.0.1"
+description = "A Vehicle Insurance prediction project using machine learning."
+authors = [
+    { name = "Chandan", email = "chandankumarswain3467@gmail.com" }
+]
+readme = "README.md"
+
+[tool.setuptools]
+packages={find={}}
+
+[tool.setuptools.dynamic]
+dependencies={file='requirements.txt'}
