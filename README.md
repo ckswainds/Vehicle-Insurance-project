@@ -8,3 +8,7 @@ This is a practice project
 - component
 - pipeline
 - app.py / demo.py
+
+work on 
+-aws pushing/model_eval and model pusher
+fast-api /app.py
